@@ -20,6 +20,6 @@ public class ApiToleranceResource {
   @GET
   @Produces(MediaType.TEXT_PLAIN)
   public String getDataFromSlowAPI() {
-    return apiToleranceClient.getDataFromSlowAPI();
+    return apiToleranceClient.retrieveData();
   }
 }
